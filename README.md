@@ -90,7 +90,7 @@ Available keymaps
 Acknowledgements
 ----------------
 
-Sourcemaps have been cloned from (cocur/slugify)(https://github.com/cocur/slugify.git). Thanks to (Florian Eckerstorfer)[https://github.com/florianeckerstorfer] and all other contributors!
+Sourcemaps have been cloned from (cocur/slugify)[https://github.com/cocur/slugify.git]. Thanks to (Florian Eckerstorfer)[https://github.com/florianeckerstorfer] and all other contributors!
 
 License
 -------
