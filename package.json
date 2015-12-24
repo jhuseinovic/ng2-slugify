@@ -1,0 +1,39 @@
+{
+  "name": "ng2-slugify",
+  "version": "0.1.0",
+  "description": "Angular2 Slugify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkuri/ng2-slugify.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "prepublish": "grunt build && tsc"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "slug",
+    "slugify"
+  ],
+  "author": "Jan Kuri <jkuri88@gmail.com>",
+  "main": "ng2-slugify.js",
+  "typings": "./ng2-slugify.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-fixindent": "^0.1.3",
+    "systemjs": "0.19.6",
+    "time-grunt": "^1.3.0",
+    "typescript": "^1.7.3",
+    "typescript-formatter": "^1.2.0"
+  }
+}
