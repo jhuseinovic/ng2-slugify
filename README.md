@@ -33,7 +33,7 @@ If you are using SystemJS you can map to ng2-slugify in your configuration.
       'node_modules/ng2-slugify/': {defaultExtension: 'js'}
     },
     map: {
-      "ng2-slugify": "node_modules/ng2-slugify/ng2-slugify.js"
+      'ng2-slugify': 'node_modules/ng2-slugify/ng2-slugify.js'
     }
   });
 </script>
@@ -71,7 +71,7 @@ class Test {
 
 export class App {
   public test = new Test();
-  private slug = new Slug(); // this will use 'default' keymap
+  private slug = new Slug('default'); // this will use 'default' keymap
   private slugGerman = new Slug('german'); // for list of all available keymaps see bellow
 
   public generateSlug(): void {
@@ -84,7 +84,7 @@ export class App {
 Available keymaps
 -----------------
 
-'german', 'french', 'spanish', 'russian', 'ukrainian', 'polish', 'czech', 'latvian', 'greek',
+'default', 'german', 'french', 'spanish', 'russian', 'ukrainian', 'polish', 'czech', 'latvian', 'greek',
 'esperanto', 'arabian', 'vietnamese', 'burmese', 'danish', 'turkish', 'finnish', 'swedish', and 'georgian'
 
 Acknowledgements
