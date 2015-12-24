@@ -29,6 +29,9 @@ If you are using SystemJS you can map to ng2-slugify in your configuration.
 <!-- index.html -->
 <script>
   SystemJS.config({
+    packages: {
+      'node_modules/ng2-slugify/': {defaultExtension: 'js'}
+    },
     map: {
       "ng2-slugify": "node_modules/ng2-slugify/ng2-slugify.js"
     }
