@@ -3,7 +3,7 @@ import {Charmaps} from './charmaps';
 export class Slug {
   private maps: Object;
 
-  constructor(key: string) {
+  constructor(key?: string) {
     let charmaps = new Charmaps();
     let k = (key) ? key : 'default';
     this.maps = charmaps.getMaps(k);
