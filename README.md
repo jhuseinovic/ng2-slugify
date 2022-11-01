@@ -20,7 +20,7 @@ Installation
 You can install Slugify through npm:
 
 ```shell
-$ npm install ng2-slugify
+$ npm install jhuseinovic/ng2-slugify
 ```
 
 If you are using SystemJS you can map to ng2-slugify in your configuration.
