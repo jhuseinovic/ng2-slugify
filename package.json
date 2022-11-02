@@ -1,6 +1,6 @@
 {
   "name": "ng2-slugify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Angular2 Slugify",
   "repository": {
     "type": "git",
@@ -16,7 +16,11 @@
     "slug",
     "slugify"
   ],
-  "author": "John Huseinovic <john@huseinovic.net>",
+  "author": "Jan Kuri <jkuri88@gmail.com>",
+  "contributors": [{
+    "name": "John Huseinovic",
+    "email": "john@huseinovic.net"
+  }],
   "main": "ng2-slugify.js",
   "typings": "./ng2-slugify.d.ts",
   "license": "MIT",
