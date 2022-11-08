@@ -4,7 +4,7 @@
   "description": "Angular2 Slugify",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jkuri/ng2-slugify.git"
+    "url": "git+https://github.com/jhuseinovic/ng2-slugify.git"
   },
   "scripts": {
     "dev": "tsc --watch",
